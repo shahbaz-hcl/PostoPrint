@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:id="@+id/thumbnail"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/editting_gridview_border"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:id="@+id/thumbnail_overlay"/>
+
+    <CheckBox android:id="@+id/thumbnail_checkbox"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:button="@drawable/checkbox_selector"
+        />
+
+</RelativeLayout>

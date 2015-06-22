@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+         <TableLayout android:layout_width="fill_parent"
+                     android:layout_height="wrap_content">
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:background="@color/table_header_colour"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="User Data"/>
+            </TableRow>
+
+            <!--First Name-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="First Name:"
+                    android:layout_weight="1"
+                    />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_firstName"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:id="@+id/prefs_firstName_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:paddingTop="10dp"
+                    />
+
+            </TableRow>
+
+            <!--Last Name-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Last Name:"
+                    android:layout_weight="1"/>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_lastName"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_lastName_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <!--Mobile-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                e
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Mobile"
+                    android:layout_weight="1"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_mobile"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:phoneNumber="true"
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_mobile_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <!--Email -->
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Email:"
+                    android:layout_weight="1"
+                    />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_email"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:inputType="textEmailAddress"
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_email_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:background="@color/table_header_colour"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Address"/>
+
+
+            </TableRow>
+
+
+            <!--Block -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    style="@style/preferences_text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Block:"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_block"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_block_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <!--Street Name-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Street Name:"
+                    android:layout_weight="1"/>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_street"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_street_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <!--Unit Number-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                e
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Unit Number"
+                    android:layout_weight="1"/>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_unit"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:hint="Optional"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_unit_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <!--Postal Code-->
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="Postal Code:"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    style="@style/preferences_text"
+                    android:id="@+id/prefs_postal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:hint="Required"
+                    android:layout_weight="5"/>
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/prefs_postal_v"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+
+</ScrollView>
+
+

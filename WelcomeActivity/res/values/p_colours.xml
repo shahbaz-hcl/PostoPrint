@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <color name="actionbar_top">#CEE293</color>
+    <color name="actionbar_bottom">#9ECA55</color>
+    -->
+    <color name="actionbar_header_text">#5D7731</color>
+    <color name="table_header_colour">#F6C88E</color>
+    <color name="table_body_colour">#F8DCB8</color>
+    <color name="table_divider_top_colour">#F5C88E</color>
+    <color name="table_divider_bottom_colour">#F6EDE1</color>
+    <color name="table_text_colour">#BF6727</color>
+    <color name="error_red">#ff0000</color>
+    <color name="black"> #000000</color>
+    <color name="actionbar_top">#00FFFF</color>
+    <color name="actionbar_bottom">#00FFFF</color>
+    <color name="bg">#02415c</color>
+    <color name="darker_gray">#373737</color>
+    <color name="orange">#FFA500</color>
+    <color name="dark_gray">#7A7676</color>
+    <color name="yellow">#E6B800</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#696969</color>
+    <color name="light_gray">#efefef</color>
+    <color name="very_dark_gray">#272727</color>
+    <color name="signup_color">#33CCFF</color>
+    <color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+    <color name="red">#FF0000</color>
+    <color name="header_color">#f8f7f7</color>
+    <color name="facebook_btncolor">#3B5999</color>
+    <color name="twitter_btncolor">#01A9DB</color>
+    <color name="google__btncolor">#DF0101</color>
+    <color name="pressedcolor">#A4A4A4</color>
+    <color name="age_gate_btn_color">#d9dbdb</color>
+    <color name="age_gate_btn_text_color">#828585</color>
+    <color name="age_gate_separtor">#c0c2c2</color>
+    <color name="age_gate_text_color">#636363</color>
+    <color name="holo_blue_light">#33b5e5</color>
+    <color name="media_grey">@color/very_dark_gray</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="secondary_center_prog">#0000ffff</color>
+    <color name="secondary_end_prog">@color/red</color>
+    <color name="secondary_start_prog">#0000ffff</color>
+    <color name="thumb_color">#D0D0D0</color>
+    <color name="signin_btn_color">#f05a24</color>
+    <color name="facebook_btn_color">#3b5a9c</color>
+    <color name="normal_button_color">#008ee0</color>
+    <color name="share_title_background"> #2B547E</color>
+    <color name="share_gridview">#344152</color>
+    <color name="product_btn_bg_color">#00FFFF</color>
+
+</resources>

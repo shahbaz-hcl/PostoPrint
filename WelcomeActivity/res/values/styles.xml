@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <style name="Postalgia" parent="Theme.Sherlock.Light">
+            <item name = "actionBarStyle">@style/Postalgia_ActionBar </item>
+            <item name = "android:actionBarStyle">@style/Postalgia_ActionBar</item>
+            <item name = "android:textColor">@color/table_text_colour</item>
+
+            <!--Other properties -->
+
+            <item name="android:windowBackground">@color/table_body_colour</item>
+
+
+        </style>
+
+        <style  name="Postalgia_ActionBar" parent="Widget.Sherlock.Light.ActionBar">
+            <!--Actionbar properties-->
+            <item name="background">@drawable/postalgia_action_bar</item>
+            <item name="android:background">@drawable/postalgia_action_bar</item>
+
+
+        </style>
+
+
+        <style name ="table_entry">
+
+            <item name="android:textSize">15dp</item>
+            <item name="android:layout_height">wrap_content</item>
+        </style>
+
+        <style name ="preferences_text">
+            <item name="android:singleLine">true</item>
+            <item name="android:imeOptions">actionNext</item>
+        </style>
+
+    </resources>
+
+

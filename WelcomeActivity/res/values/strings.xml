@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PostoPrint</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <string-array name="menu_options_array">
+        <item>Choose</item>
+        <item>Customize</item>
+        <item>Checkout</item>
+        <item>About Us</item>
+        <item>Settings</item>
+        <item>Pricing</item>
+    </string-array>
+
+    <integer name="image_path">1</integer>
+    <integer name="image_id">2</integer>
+    <integer name="database_id">3</integer>
+    <integer name="orientation">4</integer>
+    <integer name="bucket">5</integer>
+    <integer name="editting_grid_position">4</integer>
+
+</resources>

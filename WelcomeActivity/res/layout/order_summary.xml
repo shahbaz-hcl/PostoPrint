@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="@color/table_header_colour"
+
+
+                    >
+
+                    <TextView
+                        android:text="Item"
+                        style="@style/table_entry"
+                        android:layout_weight="2"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        android:text="Cost (S$)"
+                        style="@style/table_entry"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="20dp"/>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+
+                        style="@style/table_entry"
+                        android:text="Size: 4R"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="left"
+                        />
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            style="@style/table_entry"
+                            android:id="@+id/summary_4R_quantity"
+                            android:layout_width="wrap_content"
+
+
+                            />
+
+                        <TextView
+                            style="@style/table_entry"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/summary_4R_discount"
+                            android:paddingLeft="2dp"/>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:id="@+id/summary_4R_cost"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="20dp"
+                        />.
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:text="Size: Wallet"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="left"/>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            style="@style/table_entry"
+                            android:id="@+id/summary_wallet_quantity"
+                            android:layout_width="wrap_content"
+                            />
+
+                        <TextView
+                            style="@style/table_entry"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/summary_wallet_discount"
+                            android:paddingLeft="2dp"/>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:id="@+id/summary_wallet_cost"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="20dp"
+                        />.
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:text="Size: Square"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="left"/>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/table_entry"
+                            android:id="@+id/summary_square_quatity"
+                            android:layout_width="wrap_content"
+                            />
+
+                        <TextView
+                            style="@style/table_entry"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/summary_square_discount"
+                            android:paddingLeft="2dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:id="@+id/summary_square_cost"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="20dp"
+                        />.
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:text="Delivery"
+                        android:layout_weight="2"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:id="@+id/summary_delivery"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="20dp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="@color/table_header_colour">
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:text="Total Cost"
+                        android:layout_weight="2"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="left"/>
+
+                    <TextView
+                        style="@style/table_entry"
+                        android:id="@+id/summary_totalCost"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="20dp"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:hint="Voucher Code"
+                android:id="@+id/summary_discount_code"
+                android:inputType="text|textEmailAddress"
+                android:layout_marginTop="1dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Address Here"
+                    android:lineSpacingExtra="2dp"
+                    android:id="@+id/summary_address_text"
+                    android:singleLine="false"
+                    android:paddingBottom="5dp"/>
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:singleLine="false"
+                    android:id="@+id/summary_change_address"
+                    android:src="@drawable/change_address"
+                    android:scaleType="fitStart"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pay With Paypal"
+                android:id="@+id/summary_startPaypal"
+
+                android:src="@drawable/paypal"
+                android:scaleType="fitEnd"
+                android:background="@android:color/transparent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="*Paypal allows payment with Visa/MasterCard \n even if you do not own a Paypal account"
+                android:textSize="12dp"
+
+                android:id="@+id/summary_footer_text"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAlignment="center"
+                android:textIsSelectable="false"
+                android:singleLine="false"
+                />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+</ScrollView>

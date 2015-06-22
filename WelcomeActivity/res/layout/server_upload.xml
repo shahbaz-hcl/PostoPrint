@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/server_upload_layout">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/server_upload_textview"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="30dp"
+        android:text="Uploading images, please wait."
+        android:gravity="center"
+        />
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/server_upload_button"
+        android:src="@drawable/print_more"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:visibility="invisible"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

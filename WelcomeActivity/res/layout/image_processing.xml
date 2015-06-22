@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              >
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:layout_gravity="center_horizontal"
+        >
+        <it.sephiroth.android.library.imagezoom.ImageViewTouch
+            android:id="@+id/image"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            />
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+            android:layout_weight="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center"
+            android:weightSum="2" >
+
+        <Button
+                android:id="@+id/button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:layout_height="wrap_content"
+                android:text="Load Image" />
+
+        <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:layout_height="wrap_content"
+                android:text="Change Display" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Print Matrices"
+            android:onClick="printMatrices"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Get Coords"
+            android:onClick="getCoords"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Save Image"
+            android:onClick="saveImage"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Rotate"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+

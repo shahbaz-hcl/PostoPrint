@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/editting_gridview_border"
+    android:padding="2dp">
+
+    <FrameLayout
+        android:id="@+id/editting_gridcell_frame"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/editting_gridcell_image"
+            android:background="@android:color/white"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editting_gridcell_pick_size"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/editting_gridcell_reduce"
+            android:src="@drawable/minus"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/editting_gridcell_quantity"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:text="1"
+            android:textAlignment="center"
+            android:focusable="false"
+
+            />
+
+        <ImageButton
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/editting_gridcell_increase"
+            android:src="@drawable/plus"/>
+
+        <ImageButton
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/editting_gridcell_rotate"
+            android:src="@drawable/rotate_small"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
